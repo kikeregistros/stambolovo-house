@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Residence - Stambolovo, Bulgaria</title>
+  <meta name="description" content="Chalet de 200m² reformado en el centro de Stambolovo. Oportunidad de inversión inmobiliaria antes del aumento de precios por la eurozona.">
+  <meta name="keywords" content="chalet bulgaria, comprar casa bulgaria, stambolovo house, casa en venta stambolovo, veliko tarnovo real estate, house for sale bulgaria, pavlikeni property">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stambolovo-house.web.app/">
+  <meta property="og:title" content="Premium Residence Stambolovo - Tu Casa en Bulgaria">
+  <meta property="og:description" content="Espacioso chalet de 200 m² reformado con estándares occidentales en Stambolovo, Bulgaria. Parcela de 1.350 m², piscina, garaje y suministro de agua estable.">
+  <meta property="og:image" content="https://stambolovo-house.web.app/images/WhatsApp%20Image%202026-07-02%20at%2016.57.14.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://stambolovo-house.web.app/">
+  <meta property="twitter:title" content="Premium Residence Stambolovo - Tu Casa en Bulgaria">
+  <meta property="twitter:description" content="Espacioso chalet de 200 m² reformado con estándares occidentales en Stambolovo, Bulgaria. Parcela de 1.350 m², piscina, garaje y suministro de agua estable.">
+  <meta property="twitter:image" content="https://stambolovo-house.web.app/images/WhatsApp%20Image%202026-07-02%20at%2016.57.14.jpeg">
+
+  <!-- Inline Vector Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏡</text></svg>">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Premium Header -->
+  <header id="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo">
+        <span>Stambolovo</span>Residence
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#features" data-i18n="nav-features">Características</a></li>
+          <li><a href="#gallery" data-i18n="nav-gallery">Galería</a></li>
+          <li><a href="#valuation" data-i18n="nav-valuation">Valoración IA</a></li>
+          <li><a href="#negotiation" data-i18n="nav-negotiation">Simulador</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-selector-flags">
+          <button class="lang-flag-btn" data-lang="bg" title="Български">🇧🇬</button>
+          <button class="lang-flag-btn" data-lang="en" title="English">🇬🇧</button>
+          <button class="lang-flag-btn" data-lang="es" title="Español">🇪🇸</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge" data-i18n="hero-badge">Oportunidad Única</span>
+        <h1 class="hero-title text-gradient" data-i18n="hero-title">Tu refugio occidental en el corazón de Stambolovo</h1>
+        <p class="hero-description" data-i18n="hero-desc">Espacioso chalet de 200 m² reformado con estándares occidentales, ubicado en una zona privilegiada con agua estable constante y justo frente al parque infantil del pueblo.</p>
+        
+        <!-- Offer Limit Notice -->
+        <div style="background: rgba(240, 186, 66, 0.05); border-left: 3px solid var(--accent-gold); padding: 12px 18px; border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0; font-size: 0.88rem; font-weight: 500;">
+          <span style="color: var(--accent-gold); text-transform: uppercase; font-weight: 700; margin-right: 6px;" data-i18n="hero-limit-label">Aviso:</span>
+          <span data-i18n="hero-limit-desc">Oferta válida hasta el 1 de agosto de 2026. Si no se vende antes, la propiedad se retirará del mercado para explotación anual.</span>
+        </div>
+
+        <div class="hero-price-tag">
+          <span class="price-label" data-i18n="price-label">Precio</span>
+          <span class="price-value text-gradient-gold">78.000</span>
+          <span class="price-currency">€</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#negotiation" class="btn btn-primary" data-i18n="btn-negotiate">Negociar Precio</a>
+          <a href="https://wa.me/359878790121?text=Hola%20Enrique,%20estoy%20interesado%20en%20la%20casa%20de%20Stambolovo." target="_blank" class="btn btn-whatsapp" id="heroWaBtn">
+            <svg class="icon-svg" viewBox="0 0 24 24" style="fill: currentColor;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 2.01 14.069.988 11.49.988 6.059.988 1.633 5.36 1.629 10.787c-.001 1.742.476 3.441 1.381 4.962L2.016 21l5.441-1.428-.81.582zM18.06 14.92c-.3-.15-1.775-.875-2.05-.975-.275-.1-.475-.15-.675.15-.2.3-.775.975-.95 1.175-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.485-.89-.795-1.49-1.778-1.665-2.078-.175-.3-.018-.462.13-.61.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.491-.51-.675-.52-.175-.01-.375-.01-.575-.01-.2 0-.525.075-.8 1.05-.275 1.15-.8 2.025-1.1 2.4-.3.375-.575.575-1.125.825-.55.25-1.075.35-1.375.2-.3-.15-1.775-.875-2.05-.975z"/></svg>
+            <span data-i18n="btn-whatsapp">Contactar WhatsApp</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-showcase">
+        <img src="images/WhatsApp Image 2026-07-02 at 16.57.14.jpeg" alt="Chalet en Stambolovo" id="heroImg">
+        <div class="hero-showcase-overlay">
+          <div class="showcase-info">
+            <h4 data-i18n="showcase-title">Fachada Principal</h4>
+            <p data-i18n="showcase-subtitle">Imagen de hace dos años (jardín cuidado)</p>
+          </div>
+          <a href="#gallery" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.85rem;" data-i18n="view-all-photos">Ver Fotos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section-padding" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="features-badge">El Valor del Inmueble</span>
+        <h2 class="section-title text-gradient" data-i18n="features-title">Características Únicas & Ventajas</h2>
+        <p class="section-subtitle" data-i18n="features-subtitle">Descubre los puntos fuertes que convierten a esta casa en una oportunidad excepcional en Bulgaria.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1: Ubicación -->
+        <div class="feature-card glass-card">
+          <div class="feature-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h3 data-i18n="feat1-title">Ubicación Premium</h3>
+          <p data-i18n="feat1-desc">Situada en el mismo centro de Stambolovo, justo enfrente de un parque infantil. Permite vigilar a los niños cómodamente desde la propiedad.</p>
+        </div>
+
+        <!-- Feature 2: Espacio -->
+        <div class="feature-card glass-card">
+          <div class="feature-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+          </div>
+          <h3 data-i18n="feat2-title">Dimensiones Generosas</h3>
+          <p data-i18n="feat2-desc">200 m² construidos con 3 dormitorios, 2 baños, salón y cocina reformados. Incluye además garaje de 40 m² con estanterías organizadas.</p>
+        </div>
+
+        <!-- Feature 3: Agua -->
+        <div class="feature-card glass-card">
+          <div class="feature-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
+          <h3 data-i18n="feat3-title">Suministro de Agua Estable</h3>
+          <p data-i18n="feat3-desc">Stambolovo goza de suministro de agua estable y continuo, una ventaja crítica frente a varios pueblos de los alrededores que sufren de cortes frecuentes y no tienen agua.</p>
+        </div>
+
+        <!-- Feature 4: Exteriores -->
+        <div class="feature-card glass-card">
+          <div class="feature-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h14v-8h3L12 3zm-2 15H8v-3h2v3zm0-5H8V9h2v4zm4 5h-2v-3h2v3zm0-5h-2V9h2v4zm4 5h-2v-3h2v3zm0-5h-2V9h2v4z"/></svg>
+          </div>
+          <h3 data-i18n="feat4-title">Tierra y Ocio</h3>
+          <p data-i18n="feat4-desc">Terreno de 1.350 m² con viñedos y árboles frutales consolidados (peras, manzanas, cerezas, ciruelas) y piscina desmontable de 8 metros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section-padding gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="gallery-badge">Fotografías del Inmueble</span>
+        <h2 class="section-title text-gradient" data-i18n="gallery-title">Galería de Imágenes</h2>
+        <p class="section-subtitle" data-i18n="gallery-subtitle">Explora los exteriores, interiores y equipamiento del chalet (imágenes de hace 2 años).</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Las fotos se cargarán dinámicamente mediante JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Valuation & Projections Section -->
+  <section class="section-padding" id="valuation">
+    <div class="container valuation-grid">
+      <div class="valuation-content">
+        <span class="badge" data-i18n="val-badge">Mercado Inmobiliario</span>
+        <h2 class="section-title text-gradient" data-i18n="val-title">Previsión Inmobiliaria y Análisis de IA</h2>
+        <p class="hero-description" data-i18n="val-desc-1">La valoración de la vivienda está basada en consultas automatizadas de IA en la región de Pavlikeni y Veliko Tarnovo, analizando propiedades similares del segmento renovado.</p>
+        <p class="hero-description" data-i18n="val-desc-2">Con la entrada de Bulgaria en la eurozona y la llegada de fondos de cohesión de la UE para carreteras e infraestructuras, la convergencia de precios está acelerando el coste diario y el sector inmobiliario rural.</p>
+        <p class="hero-description" style="font-weight: 600; color: var(--accent-gold);" data-i18n="val-desc-3">Se prevé un incremento del valor de la vivienda rural lista para entrar de entre el 20% y el 25% para el próximo año. Adquirir hoy a 78.000 € representa una inversión con revalorización inmediata.</p>
+      </div>
+
+      <div class="glass-card chart-container">
+        <h3 class="chart-title text-gradient-gold" data-i18n="chart-title">Proyección de Precio del Inmueble (EUR)</h3>
+        <div class="bar-chart">
+          <div class="bar-wrapper">
+            <span class="bar-value">~30k €</span>
+            <div class="bar bar-2024"></div>
+            <span class="bar-label">2024 (Rango Medio)</span>
+          </div>
+          <div class="bar-wrapper">
+            <span class="bar-value">78.000 €</span>
+            <div class="bar bar-2026"></div>
+            <span class="bar-label">2026 (Actual)</span>
+          </div>
+          <div class="bar-wrapper">
+            <span class="bar-value">~95k €</span>
+            <div class="bar bar-2027"></div>
+            <span class="bar-label" data-i18n="chart-label-2027">2027 (Previsión)</span>
+          </div>
+        </div>
+        <p class="chart-legend" data-i18n="chart-legend">*Proyecciones calculadas bajo el IPC real y coste de materiales de construcción en Bulgaria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulator Section -->
+  <section class="section-padding simulator-section" id="negotiation">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="sim-badge">Transparencia Total</span>
+        <h2 class="section-title text-gradient" data-i18n="sim-title">Simulador de Negociación de Reformas</h2>
+        <p class="section-subtitle" data-i18n="sim-subtitle">Las fotos muestran el estado de hace 2 años. Actualmente la pintura de algunas estancias, la piscina y el jardín requieren mantenimiento. Elige tu modo de compra preferido.</p>
+      </div>
+
+      <div class="simulator-grid">
+        <!-- Controls -->
+        <div class="simulator-controls">
+          <h3 data-i18n="sim-options-title">Selecciona qué reparaciones asumes tú:</h3>
+          
+          <div class="reform-options">
+            <!-- Option 1: Pintura -->
+            <div class="reform-option-card glass-card">
+              <div class="reform-info">
+                <span class="reform-title" data-i18n="opt1-title">Pintura y goteras del tejado</span>
+                <span class="reform-desc" data-i18n="opt1-desc">El tejado tiene una gotera puntual y los techos necesitan repintarse de humedades pasadas.</span>
+              </div>
+              <div class="reform-action">
+                <span class="reform-cost">-1.500 €</span>
+                <label class="switch">
+                  <input type="checkbox" class="reform-checkbox" data-discount="1500" id="optPainting">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Option 2: Jardín -->
+            <div class="reform-option-card glass-card">
+              <div class="reform-info">
+                <span class="reform-title" data-i18n="opt2-title">Paisajismo y cuidado del jardín</span>
+                <span class="reform-desc" data-i18n="opt2-desc">El jardín y los árboles frutales han estado descuidados estos años y requieren desbroce y poda.</span>
+              </div>
+              <div class="reform-action">
+                <span class="reform-cost">-800 €</span>
+                <label class="switch">
+                  <input type="checkbox" class="reform-checkbox" data-discount="800" id="optGarden">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Option 3: Piscina -->
+            <div class="reform-option-card glass-card">
+              <div class="reform-info">
+                <span class="reform-title" data-i18n="opt3-title">Limpieza de piscina y alrededores</span>
+                <span class="reform-desc" data-i18n="opt3-desc">Puesta a punto de la piscina desmontable de 8 metros y desinfección, incluyendo limpieza de la misma, sus alrededores y lugares adyacentes.</span>
+              </div>
+              <div class="reform-action">
+                <span class="reform-cost">-500 €</span>
+                <label class="switch">
+                  <input type="checkbox" class="reform-checkbox" data-discount="500" id="optPool">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Option 4: Imprevistos -->
+            <div class="reform-option-card glass-card">
+              <div class="reform-info">
+                <span class="reform-title" data-i18n="opt4-title">Fondo para imprevistos generales</span>
+                <span class="reform-desc" data-i18n="opt4-desc">Compensación por pequeños detalles estéticos no descritos o imprevistos de puesta a punto.</span>
+              </div>
+              <div class="reform-action">
+                <span class="reform-cost">-1.000 €</span>
+                <label class="switch">
+                  <input type="checkbox" class="reform-checkbox" data-discount="1000" id="optUnforeseen">
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Display Output -->
+        <div class="glass-card simulator-display">
+          <div class="price-card">
+            <span class="price-card-label" data-i18n="sim-price-label">Precio Final Negociado</span>
+            <div style="display: flex; align-items: baseline; justify-content: center; gap: 6px;">
+              <span class="price-card-value text-gradient-emerald" id="calcPrice">78.000</span>
+              <span class="price-currency" style="font-size: 1.8rem; color: var(--accent-emerald);">€</span>
+            </div>
+          </div>
+
+          <div class="negotiation-notice">
+            <span class="notice-title">
+              <svg class="icon-svg" style="fill: var(--accent-gold);" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h-3V9h5v8z"/></svg>
+              <span data-i18n="notice-title">Política de Honestidad</span>
+            </span>
+            <p id="noticeDesc" data-i18n="notice-desc">Si no marcas ninguna casilla, el vendedor se compromete a entregarte la casa con el tejado sellado, los techos pintados, el jardín limpio y la piscina lista para usar por el precio base de 78.000 €. Si decides hacer las reformas tú mismo, se te descontarán estas cantidades justas del precio. No se aceptarán presupuestos inflados ajenos (ej: valorar la pintura en 10.000 €); en caso de desacuerdo en los costes de reparación, las obras las realizará el propietario antes de formalizar la compra.</p>
+            <p style="font-size: 0.85rem; color: var(--accent-gold); margin-top: 12px; line-height: 1.45; font-style: italic;" data-i18n="sim-disclaimer">* Забележка: Тези суми представляват максималните отстъпки, определени за всяка част, и ще бъдат оценявани съвместно от купувача и продавача. Те не означават автоматично приспадане от цената на къщата, а максимален лимит за преговори за всяка ремонтна дейност.</p>
+          </div>
+
+          <a href="#" class="btn btn-whatsapp" id="negotiationWaBtn" target="_blank" style="width: 100%;">
+            <svg class="icon-svg" viewBox="0 0 24 24" style="fill: currentColor;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 2.01 14.069.988 11.49.988 6.059.988 1.633 5.36 1.629 10.787c-.001 1.742.476 3.441 1.381 4.962L2.016 21l5.441-1.428-.81.582z"/></svg>
+            <span data-i18n="btn-send-proposal">Enviar Propuesta de Negociación</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section-padding" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="badge" data-i18n="contact-badge">Contacto Directo</span>
+        <h2 class="section-title text-gradient" data-i18n="contact-title">¿Interesado en Visitar la Casa?</h2>
+        <p class="hero-description" data-i18n="contact-desc">Si deseas más información, coordinar una visita virtual o presencial, o discutir las opciones de reforma directamente, ponte en contacto sin compromiso.</p>
+        
+        <div class="contact-method">
+          <div class="contact-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+          </div>
+          <div class="contact-details">
+            <h4 data-i18n="contact-phone-label">Teléfono de Contacto</h4>
+            <p>+359 878790121</p>
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <div class="contact-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div class="contact-details">
+            <h4 data-i18n="contact-location-label">Ubicación de la Casa</h4>
+            <p data-i18n="contact-location-val">Centro de Stambolovo, Veliko Tarnovo, Bulgaria</p>
+          </div>
+        </div>
+
+        <!-- Real Estate Agencies Notice Card -->
+        <div class="glass-card" style="padding: 24px; border-left: 4px solid var(--accent-emerald); background: rgba(82, 219, 137, 0.02); display: flex; flex-direction: column; gap: 8px;">
+          <h4 style="color: var(--accent-emerald); display: flex; align-items: center; gap: 8px; font-size: 1.05rem;">
+            <svg class="icon-svg" style="fill: var(--accent-emerald);" viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
+            <span data-i18n="agency-title">Sección para Inmobiliarias</span>
+          </h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;" data-i18n="agency-desc">Colaboramos activamente con agencias. Aceptamos el trato con inmobiliarias y autorizamos el uso de las fotografías de la web, siempre que nos avisen previamente. El precio final se mantiene firme en 78.000 € y pagaremos las comisiones estándar acordadas tras la firma.</p>
+        </div>
+      </div>
+
+      <div class="glass-card contact-form-card">
+        <h3 style="margin-bottom: 24px;" data-i18n="form-title">Escríbeme por WhatsApp</h3>
+        <div class="form-group">
+          <label for="clientName" data-i18n="form-label-name">Tu Nombre</label>
+          <input type="text" class="form-control" id="clientName" data-i18n="form-placeholder-name" placeholder="Ej: John Doe">
+        </div>
+        <div class="form-group">
+          <label for="clientMessage" data-i18n="form-label-msg">Mensaje Inicial</label>
+          <textarea class="form-control" id="clientMessage" data-i18n="form-placeholder-msg" placeholder="Me gustaría tener más información sobre el chalet de Stambolovo..."></textarea>
+        </div>
+        <button class="btn btn-primary" id="btnSubmitContact" style="width: 100%;" data-i18n="btn-submit">Abrir chat de WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Stambolovo Residence. <span data-i18n="footer-rights">Todos los derechos reservados.</span></p>
+        <p data-i18n="footer-disclaimer">Fotos realizadas hace 2 años. Validez de oferta según acuerdo de partes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</button>
+      <img src="" class="lightbox-img" id="lightboxImg" alt="Imagen ampliada">
+      <button class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/359878790121?text=Hola%20Enrique,%20estoy%20interesado%20en%20la%20casa%20de%20Stambolovo." class="whatsapp-float" target="_blank" id="floatWaBtn">
+    <svg class="icon-svg" style="width: 32px; height: 32px; fill: white;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 2.01 14.069.988 11.49.988 6.059.988 1.633 5.36 1.629 10.787c-.001 1.742.476 3.441 1.381 4.962L2.016 21l5.441-1.428-.81.582z"/></svg>
+  </a>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyChDBoFahfFjtcufKsq0fjr9gG4IDWCIaM",
+      authDomain: "stambolovo-house.firebaseapp.com",
+      projectId: "stambolovo-house",
+      storageBucket: "stambolovo-house.firebasestorage.app",
+      messagingSenderId: "335676964827",
+      appId: "1:335676964827:web:30b219f97b7688c03731fe",
+      measurementId: "G-P0TWLBTP6N"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script src="main.js?v=1.0.3"></script>
+</body>
+</html>
+
+
